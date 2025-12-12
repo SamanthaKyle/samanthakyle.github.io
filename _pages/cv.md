@@ -11,26 +11,26 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* B.A. in Human Geography, University of Toronto, exp. 2026
+  * Minors: Geographic Information Systems, Urban Studies
+* Landscape Technician Honours Diploma, Niagara College, 2023
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* 2023 - 2025: Landscape Designer & Project Coordinator
+  * Kate's Garden, Markham, Ontario
+  * Duties includes: (insert more here)
+  * Supervisor: (insert more here)
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* 2020 - 2021: Teaching Assisstant
+  * University of Toronto Scarborough
+  * Duties included: (insert more here)
+  * Supervisor: (insert more here)
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2019 - 2023: Programming Instructor and Curricula Developer
+  * Code Academy
+  * Duties included: (insert more here)
+  * Supervisor: (insert more here)
   
 Skills
 ======
@@ -41,23 +41,6 @@ Skills
   * Sub-skill 2.3
 * Skill 3
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
   
 Service and leadership
 ======
