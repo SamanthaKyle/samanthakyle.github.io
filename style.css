@@ -1,6 +1,11 @@
+.bg-img {
+    background-image: "images/banner2.jpg";
+    width: 100%;
+}
 
-
-/* Carousel captions */
+.bg-img>p {
+    color:white;
+}
 
 .carousel-caption {
     background-color: rgba(0, 0, 0, 0.7);
