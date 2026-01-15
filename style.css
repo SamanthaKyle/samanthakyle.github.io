@@ -1,0 +1,38 @@
+
+
+/* Carousel captions */
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Semi-transparent black background */
+    padding: 10px;
+    border-radius: 5px;
+    bottom: 20%;
+    transform: translate(0, 20%);
+}
+
+.carousel-caption h5 {
+    font-size: 1 rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+#slider { /* Controls size of the images in carousel*/
+    width: 800px;
+    height: 800px;
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    .carousel-caption h5 {
+        font-size: 1rem;
+    }
+}
+
+/* CV elements?*/
+
+h3 {
+    color: red;
+}
