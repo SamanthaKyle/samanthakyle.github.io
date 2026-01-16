@@ -7,13 +7,30 @@
     box-shadow: 0px 0px 7px white;
 }
 
+.bg-image {
+    padding: 5%;
+}
+
+/* .carousel-control-prev {
+    color: black;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.carousel-control-next {
+    color: black;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.carousel-control-next-icon {
+    color: black;
+} */
+
 .carousel-caption {
     background-color: rgba(0, 0, 0, 0.7);
     /* Semi-transparent black background */
     padding: 10px;
     border-radius: 5px;
-    bottom: 20%;
-    transform: translate(0, 20%);
+    bottom: 10%;
+    transform: translate(0, 10%);
 }
 
 .carousel-caption h5 {
@@ -23,10 +40,10 @@
 }
 
 
-#slider { /* Controls size of the images in carousel*/
+/* #slider { /* Controls size of the images in carousel
     width: 800px;
     height: 800px;
-}
+} */
 
 
 /* Responsive adjustments */
@@ -39,5 +56,5 @@
 /* CV elements?*/
 
 h3 {
-    color: red;
+    color: darkorchid;
 }
