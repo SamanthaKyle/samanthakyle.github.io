@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>Samantha Kyle - Portfolio</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/product/">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <!-- Bootstrap core CSS -->
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href='style.css' rel='stylesheet'>
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <link href="product.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="site-header sticky-top py-1">
+        <nav class="container d-flex flex-column flex-md-row justify-content-between">
+            <!-- <a class="py-2" href="#" aria-label="Product">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
+    </a> --><a class="py-2 d-none d-md-inline-block" href="./index.html">Home</a>
+            <a class="py-2 d-none d-md-inline-block" href="./interactivemaps.html">Interactive Maps</a>
+            <a class="py-2 d-none d-md-inline-block" href="./staticmaps.html">Static Maps</a>
+            <a class="py-2 d-none d-md-inline-block" href="./design.html">Design Work</a>
+            <a class="py-2 d-none d-md-inline-block" href="./cv.html">CV</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="position-relative overflow-hidden p-1 p-md-3 m-md-1 text-center bg-light">
+            <div class="col-md-5 p-lg-5 mx-auto my-1">
+                <h2 class="display-6 fw-normal">Interactive Maps</h2>
+                <p class="lead fw-normal">I make interactive maps using MapBox in conjunction with Bootstrap and custom
+                    scripting.</p>
+                <!-- <a class="btn btn-outline-secondary" href="#">Coming soon</a> -->
+            </div>
+            <!-- <div class="product-device shadow-sm d-none d-md-block"></div>
+    <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div> -->
+        </div>
+
+
+
+        <div class="d-md-flex flex-md w-100 my-md-3 ps-md-3">
+            <!-- my-md-1 ps-md-3"> -->
+            <div class="col-8 bg-blue me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                <div class='my-3 py-3'>
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                            <!-- <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button> -->
+                            <!-- <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 4"></button> -->
+
+
+                            <!-- MUST ADD ONE BUTTON ABOVE FOR EVERY ADDITIONAL SLIDE-->
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/TakeTheScenicRoute1.png" class="d-block w-100 h-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Web tool to change how you explore The Beaches</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/TakeTheScenicRoute2-1.png" class="d-block w-100 h-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Explore pre-built adventure routes</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/TakeTheScenicRoute2.png" class="d-block w-100 h-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Get to know local businesses</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+                <div class="my-3 py-3">
+                    <!-- <h2 class="display-5">Another headline</h2> -->
+                </div>
+                <div>
+                    <h2 class="display-7">Beaches BIA Interactive Web Map</h2>
+                    <p class='lead'><br> Working in a small development team to provide a tool for The Beach BIA to
+                        increase foot
+                        traffic, encourage commercial activity, and bring attention to their park system.
+                        'Take The Scenic Route' is a web tool where users can find curated routes for exploration of the
+                        parks, greenspaces, stores, and third spaces in the neighbourhood.
+                        <br><br>Launching soon on The Beach BIA main website.
+                    </p>
+                    <a class="btn btn-outline-secondary" href="https://samanthakyle.github.io/GGR472_BIA/">Visit the
+                        beta site</a>
+                </div>
+                <!-- <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div> -->
+            </div>
+        </div>
+
+        <div class="d-md-flex flex-md w-100 my-md-3 ps-md-3">
+            <div class="col-8 bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                <div class="my-3 py-3">
+
+
+                    <div id="carousel-2" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel-2" data-bs-slide-to="0" class="active"
+                                aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carousel-2" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <!-- <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button> -->
+                            <!-- <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button> -->
+                            <!-- <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 4"></button> -->
+
+
+                            <!-- MUST ADD ONE BUTTON ABOVE FOR EVERY ADDITIONAL SLIDE-->
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/collision1.png" class="d-block w-100 h-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>City-wide tesselation, classified by collision density</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/collision2.png" class="d-block w-100 h-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Examine specific areas up close</h5>
+                                </div>
+                            </div>
+                            <!-- <div class="carousel-item">
+                                    <img src="images/TakeTheScenicRoute2.png" class="d-block w-100 h-100" alt="...">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Get to know local businesses</h5>
+                                    </div>
+                                </div> -->
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-2"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carousel-2"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="col bg-blue me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+                <div class="my-3 p-3">
+                    <h2 class="display-7">Toronto Collision Report Interactive Map</h2>
+                    <p class='lead'><br>Created for GGR472 - Developing Web Maps</p>
+                    <p class="lead">Explore aggregated data of cyclist and pedestrian collisions from 2025. Select a
+                        region to
+                        see some summary statistics, zoom to get more detail, and observe the spatial nature of
+                        collision
+                        distribution.</p>
+                    <p class="lead">Developed with MapBox-gl-js and BootStrap.</p>
+                </div>
+
+                </section>
+                <!-- <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div> -->
+                <a class="btn btn-outline-secondary" href="https://samanthakyle.github.io/lab4/">Visit the site</a>
+            </div>
+
+
+        </div>
+        <!-- 
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+    <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+      <div class="my-3 p-3">
+        <h2 class="display-5">Another headline</h2>
+        <p class="lead">And an even wittier subheading.</p>
+      </div>
+      <div class="bg-body shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+    </div>
+    <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+      <div class="my-3 py-3">
+        <h2 class="display-5">Another headline</h2>
+        <p class="lead">And an even wittier subheading.</p>
+      </div>
+      <div class="bg-body shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+    </div>
+  </div>
+
+  <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+    <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+      <div class="my-3 p-3">
+        <h2 class="display-5">Another headline</h2>
+        <p class="lead">And an even wittier subheading.</p>
+      </div>
+      <div class="bg-body shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+    </div>
+    <div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+      <div class="my-3 py-3">
+        <h2 class="display-5">Another headline</h2>
+        <p class="lead">And an even wittier subheading.</p>
+      </div>
+      <div class="bg-body shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+    </div>
+  </div>
+</main> -->
+
+
+        <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>
