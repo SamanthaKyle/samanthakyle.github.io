@@ -7,11 +7,22 @@
 }
 
 .headshot {
-    border-radius: 50%;
-    width: 25vh;
-    height: 25vh;
+    /* border-radius: 50%; */
+    width: 15vw;
+    height: 15vw;
+    border-style: solid;
+    border-color: lightblue;
+    border-width: 10px 10px 10px 10px;
 }
 
 .bg-blue {
     background-color: lightblue;
+}
+
+.carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-control-prev {
+    background-color: rgba(0, 0, 0, 0.5);
 }
